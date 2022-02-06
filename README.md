@@ -1,7 +1,7 @@
 
 # Bowser
 
-![Example](static/Icon.png) This is a simple mechanism to build a centralized redirection service that is easy to augment.  Something like this has existed in various forms notably yubnub and bunny1.  When I worked at Facebook every engineer (and most employees as well) used a system called 'bunnylol' (which was historically based off of bunny1 in some way) every single day.  As part of the first day of onboarding you set this up.  I've missed the capabilities and the idea behind it so replicating here.
+<img align="left" src="static/Icon.png" width="64"> This is a simple mechanism to build a centralized redirection service that is easy to augment.  Something like this has existed in various forms notably yubnub and bunny1.  When I worked at Facebook every engineer (and most employees as well) used a system called 'bunnylol' (which was historically based off of bunny1 in some way) every single day.  As part of the first day of onboarding you set this up.  I've missed the capabilities and the idea behind it so replicating here. 
 
 The system is called 'bowser' for three reasons.  
 
