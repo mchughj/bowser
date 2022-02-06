@@ -1,13 +1,13 @@
 
-# Redirect Server (RS) 
+# Bowser
 
 This is a simple mechanism to build a centralized redirection service that is easy to augment.  Something like this has existed in various forms notably yubnub and bunny1.  When I worked at Facebook every engineer (and most employees as well) used a system called 'bunnylol' (which was historically based off of bunny1 in some way) every single day.  As part of the first day of onboarding you set this up.  I've missed the capabilities and the idea behind it so replicating here.
 
+The system is called 'bowser' for three reasons.  
+
 ## Getting started
 
-I'm going to document here the commands used in Ubuntu in order to get things running.  Feel free to augment in the future with your specific environment.
-
-In the below if your default 'python' is python3 then change the below commands to just be 'python'.
+I'm going to document here the commands used in Ubuntu in order to get things running.In the below if your default 'python' is python3 then change the below commands to just be 'python'.
 
 1. Install necessary prerequisites
    ```
@@ -35,5 +35,5 @@ In the below if your default 'python' is python3 then change the below commands 
 
 ## Using the server
 
-Go to http://[deployment host]/install and follow the instructions for making this your default search engine.
+Go to http://[deployment host:port]/install and follow the instructions for making this your default search engine.
 
