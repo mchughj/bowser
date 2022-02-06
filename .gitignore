@@ -3,3 +3,4 @@ __pycache__
 env/
 *.pyc
 github_token.txt
+static/icon.svg
