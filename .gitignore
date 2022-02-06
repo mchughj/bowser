@@ -1,0 +1,6 @@
+.env
+equities.py
+__pycache__
+env/
+*.pyc
+github_token.txt

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+
+{% if errorString %}
+<div>
+<i>Error: {{ errorString }}</i>
+</div>
+{% endif %}
+
+<h1>RS Help</h1>
+
+<div>
+<table style="margin:10px 10px; height: fit-content">
+    <tr>
+      <th>Shortcut</th>
+      <th>Description</th>
+    </tr>
+{% for i in r: %}
+    <tr>
+        <td> {{ i.shortName() }} </td>
+        <td> {{ i.description() }} </td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+
+</body>
+</html>

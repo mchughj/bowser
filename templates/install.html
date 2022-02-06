@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="Search"
+          type="application/opensearchdescription+xml"
+          title="Search"
+          href="{{ url_for('static', filename='mysearchspec.xml') }}">
+</head>
+<body>
+
+Search specification is included within the payload of this message.  Use browser-specific install button.
+
+<h2>Firefox</h2>
+
+Right click on the URL bar and choose <i>Add "Search"</i>.   This will add the Redirection Server as one of the viable search engines.  To make this one the default search engine follow these steps:
+
+<ul>
+    <li>Click the hamburger button in the top right of the screen.</li>
+    <li>Select Settings.</li>
+    <li>In the Settings tab that opens, click on Search in the left pane.</li>
+    <li>In the center pane look for <b>Default Search Engine</b> and choose <b>RS</b>.</li>
+</ul>
+
+</body>
+</html>

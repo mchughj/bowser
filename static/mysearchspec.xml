@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>RS</ShortName>
+  <Description>Redirection service - used as a centralized and generic redirection mechanism</Description>
+  <InputEncoding>[UTF-8]</InputEncoding>
+  <Url type="text/html" template="http://192.168.50.151:3434/{searchTerms}"/>
+  <Url type="application/x-moz-keywordsearch" template="http://192.168.50.151:3434/{searchTerms}"/>
+  <moz:SearchForm>http://192.168.50.151:3434</moz:SearchForm>
+</OpenSearchDescription>
