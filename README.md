@@ -37,3 +37,14 @@ I'm going to document here the commands used in Ubuntu in order to get things ru
 
 Go to http://[deployment host:port]/install and follow the instructions for making this your default search engine.
 
+## Running the server as a systemd process 
+
+If you want this to be automatically run and managed by systemd then use the 'install' script.
+
+```
+./install.sh
+```
+
+From this point forward the services will be restarted automatically on startup of the Linux box.  To see the logs use the ./showLogs.sh.  Other useful control scripts are also created.
+
+

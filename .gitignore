@@ -1,5 +1,7 @@
-equities.py
 __pycache__
 env/
 *.pyc
 github_token.txt
+restartService.sh
+showLogs.sh
+stopService.sh

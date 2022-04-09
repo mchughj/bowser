@@ -22,15 +22,17 @@ logging.basicConfig(
         level=logging.INFO, 
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
+scriptDirectory = os.path.dirname(os.path.realpath(__file__))
+envFilename = os.path.join(scriptDirectory, ".env")
+
 config = {
-    **dotenv_values(".env"), 
-    **os.environ, 
+    **dotenv_values(envFilename),
 }
 try:
     serverPort = config["ServerPort"]
     redirectionDirectory = config["RedirectionDirectory"]
 except KeyError:
-    logging.info("You must create a .env file in this directory containing the keys described in this file")
+    logging.info(f"You must create a .env file ({envFilename}) in the server directory containing the keys described in this file")
     sys.exit(1)
 
 redirections = defaultdict(lambda: None)
