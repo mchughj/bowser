@@ -5,3 +5,4 @@ github_token.txt
 restartService.sh
 showLogs.sh
 stopService.sh
+static/icon.svg
